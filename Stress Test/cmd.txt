@@ -1,0 +1,5 @@
+g++ gen.cpp -O2 -o gen
+g++ a.cpp -O2 -o sol
+g++ check.cpp -O2 -o check
+chmod +x stress.sh
+./stress.sh
